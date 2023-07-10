@@ -1,4 +1,4 @@
-
+/* 
 
 /* Colors and styles */
 :root{
@@ -76,4 +76,5 @@ input{
 
 body{
   background: var(--Bodycolor);
-}
+} 
+

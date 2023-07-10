@@ -1,18 +1,21 @@
-import React from "react";
-import './App.css'
-import Navbar from "./Components/Navbar/Navbar";
-import Main from "./Components/Main/Main";
-import Footer from "./Components/Footer/Footer";
-import Home from "./Components/Home/Home";
+import React from 'react';
+import Navbar from './Components/Navbar';
+import Header from './Components/Header';
+import Projects from './Components/Projects';
+import Portfolio from './Components/Portfolio';
+import AboutUs from './Components/AboutUs';
+import ContactUS from './Components/ContactUS';
 
-const App = () => {
-  return(
-    <>
-    <Navbar/>
-    {/* <Home/>
-    <Main/>
-    <Footer/> */}
-    </>
+function App() {
+  return (
+    <div className='App'>
+      <Navbar/>
+      <Header/>
+      <Projects/>
+      <Portfolio/>
+      <AboutUs/>
+      <ContactUS/>
+    </div>
   )
 }
 
