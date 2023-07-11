@@ -1,11 +1,12 @@
 import React from 'react';
-import aboutImg from '../img/about.png';
+import { Player } from 'video-react';
+import videoAbout from '../img/AboutUs.mp4';
 
 function AboutUs() {
   return (
     <div id='about'>
         <div className='about-image'>
-            <img src={aboutImg} alt=''/>
+            <Player src={videoAbout} />
         </div>
         <div className='about-text'>
             <h1>LEARN MORE ABOUT US</h1>

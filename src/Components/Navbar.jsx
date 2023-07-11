@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from '../img/logo.png';
+import logo from '../img/TetraLogo.png';
 import {Link} from 'react-scroll';
 
 
@@ -21,7 +21,7 @@ function Navbar() {
    <nav className={nav ? "nav active" : "nav"}>
    
     <Link to = 'main' className='logo' smooth={true} duration={2000} >
-       <img src={logo} alt=''/>
+       <img className='logoImg' src={logo} alt=''/>
     </Link>  
     <input className='menu-btn' type='checkbox' id='menu-btn'/>
     <label>
@@ -30,7 +30,7 @@ function Navbar() {
     <ul className='menu'>
         <li><Link to='main' smooth={true} duration={1000} > Home </Link></li>
         <li><Link to='features' smooth={true} duration={1000} > Projects </Link></li>
-        <li><Link to='offer' smooth={true} duration={1000} > Portfolio </Link></li>
+        <li><Link to='portfolio' smooth={true} duration={1000} > Portfolio </Link></li>
         <li><Link to='about' smooth={true} duration={1000} > About us </Link></li>
         <li><Link to='contact' smooth={true} duration={1000} > Contact us </Link></li>
     </ul>

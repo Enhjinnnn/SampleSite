@@ -7,7 +7,7 @@ import fimage4 from '../img/4.svg';
 
 function Portfolio() {
   return (
-    <div id='features'>
+    <div id='portfolio'>
         <h1>Portfolio</h1>
         <div className='a-container'>
             <Projectsbox image={fimage1} title="Characters"/>
