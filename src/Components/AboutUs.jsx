@@ -5,8 +5,11 @@ function AboutUs() {
   return (
     <div id='about'>
         <div className='about-image'>
-            <video loop autoPlay>
-              <source src={videoAbout}/>
+            <video 
+  muted
+  autoPlay={"autoplay"}
+  preLoad="auto"
+  loop src={videoAbout}>
             </video>
         </div>
         <div className='about-text'>
