@@ -368,9 +368,9 @@ nav .menu-btn,
     transition: all ease 0.3s;
     color: #ffffff;
 }
-.about-image img{
+/* .about-image img{
   width: 600px;
-}
+} */
 #contact{
     width:100%;
     display:flex;
@@ -476,6 +476,9 @@ nav .menu-btn,
     }
     #features{
 		height:auto;
+    }
+    #portfolio{
+        height: auto;
     }
     .a-container{
 		flex-wrap: wrap;

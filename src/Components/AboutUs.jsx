@@ -1,12 +1,13 @@
 import React from 'react';
-import { Player } from 'video-react';
 import videoAbout from '../img/AboutUs.mp4';
 
 function AboutUs() {
   return (
     <div id='about'>
         <div className='about-image'>
-            <Player src={videoAbout} />
+            <video loop autoPlay>
+              <source src={videoAbout}/>
+            </video>
         </div>
         <div className='about-text'>
             <h1>LEARN MORE ABOUT US</h1>
