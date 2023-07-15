@@ -436,7 +436,7 @@ nav .menu-btn,
         width:90%;
     }
 }
-@media(max-width:1920px){
+@media(min-width:1900px){
     #main{
         height: 1080px;
     }
