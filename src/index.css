@@ -436,10 +436,14 @@ nav .menu-btn,
         width:90%;
     }
 }
+@media(max-width:1920px){
+    #main{
+        height: 1080px;
+    }
+}
 @media(max-width:1190px){
 	#main{
 		background-size: 1150px !important;
-        height: 1080px;
 	}
 	.name{
 		left: 50%;
