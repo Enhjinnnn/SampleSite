@@ -3,13 +3,13 @@ import videoAbout from '../img/AboutUs.mp4';
 
 function AboutUs() {
   return (
-    <div id='about'>
+    <div id='about' className='a-container'>
         <div className='about-image'>
             <video 
-  muted
-  autoPlay={"autoplay"}
-  preLoad="auto"
-  loop src={videoAbout}>
+             muted
+             autoPlay={"autoplay"}
+             preLoad="auto"
+             loop src={videoAbout}>
             </video>
         </div>
         <div className='about-text'>
