@@ -369,13 +369,9 @@ nav .menu-btn,
     color: #ffffff;
 }
 .about-image{
-    width: 100%;
     padding-bottom: 50px;
     padding-top: 50px;
 }
-/* .about-image img{
-  width: 600px;
-} */
 #contact{
     width:100%;
     display:flex;
