@@ -32,12 +32,11 @@ input{
 }
 #main{
     width:100%;
-    height:768px;
+    height:900px;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('./img/BackgroundGif.gif');
-    position: relative;
     z-index: 0;
 }
 #main::before{
