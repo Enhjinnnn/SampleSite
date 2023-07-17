@@ -440,9 +440,9 @@ nav .menu-btn,
     }
 }
 @media(max-width:1190px){
-	#main{
+	/* #main{
 		background-size: 1150px !important;
-	}
+	} */
 	.name{
 		left: 50%;
 		top: 50%;
