@@ -73,15 +73,15 @@ nav ul{
 	display: flex;
 }
 .active{
-    background-color: #FF1414;
+    background-color: #803380;
     color:#ffffff;
-	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+	box-shadow: 5px 10px 30px rgba(210, 110, 195, 0.336);;
 	transition: all ease 0.2s;
 }
 .active:hover{
     background-color: #000000;
     color:#ffffff;
-	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+	box-shadow: 5px 10px 30px rgba(210, 110, 195, 0.336);;
 	transition: all ease 0.2s;
 }
 nav ul li a{
@@ -100,7 +100,7 @@ nav ul li a{
     transition: 0.2s ease-in-out;
 }
 nav ul li a:hover{
-	background-color: #FF1414;
+	background-color: #803380;
     color:#ffffff;
 	box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
 	transition: all ease 0.2s;
@@ -119,7 +119,7 @@ nav .menu-btn,
 	transform: translate(-50%,-55%);
 }
 .name span{
-    color: #FF1414;
+    color: #803380;
 }
 .name .details{
     font-size: 23px;
@@ -151,7 +151,7 @@ nav .menu-btn,
 	justify-content: center;
     align-items: center;
     font-size: 1.4rem;
-    background-color: #FF1414;
+    background-color: #803380;
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
     border-radius: 5px;
 	color:#ffffff;
@@ -160,7 +160,7 @@ nav .menu-btn,
 	background-color: transparent;
     transition: all ease 0.5s;
     color: #ffffff;
-    border: 2px solid #FF1414;
+    border: 2px solid #803380;
 }
 
 #features{
@@ -208,7 +208,7 @@ nav .menu-btn,
 
 }
 .a-box:hover{
-    border: 1px solid #FF1414;
+    border: 1px solid #803380;
     box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
 }
 .a-b-text{
@@ -282,7 +282,7 @@ nav .menu-btn,
 	transform: translate(-50%,-55%);
 }
 .pr-heading span{
-    color: #FF1414;
+    color: #803380;
 }
 .pr-heading .details{
     font-size: 23px;
@@ -310,7 +310,7 @@ nav .menu-btn,
 	justify-content: center;
     align-items: center;
     font-size: 1.4rem;
-    background-color: #FF1414;
+    background-color: #803380;
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
     border-radius: 5px;
 	color:#ffffff;
@@ -319,7 +319,7 @@ nav .menu-btn,
 	background-color: transparent;
     transition: all ease 0.5s;
     color: #ffffff;
-    border: 2px solid #FF1414;
+    border: 2px solid #803380;
 }
 
 #about{
@@ -341,7 +341,7 @@ nav .menu-btn,
 }
 .about-text h1{
 	font-size: 3rem;
-	color:#FF1414;
+	color:#803380;
     font-weight: 500;
     margin: 0px;
 	padding: 0px;
@@ -360,7 +360,7 @@ nav .menu-btn,
 	border: none;
     outline: none;
     color: #ffffff;
-	background-color:#FF1414;
+	background-color:#803380;
 }
 .about-text button:hover{
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
@@ -408,7 +408,7 @@ nav .menu-btn,
 }
 #contact form input[type="submit"]{
     height: 45px;
-    background: linear-gradient(90deg, #FF1414 20%,#f70000);
+    background: linear-gradient(90deg, #803380 20%,#f70000);
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -577,7 +577,7 @@ nav .menu-btn,
             top:65px;
             left:0px;
             background-color:#000000;
-            border-bottom:4px solid #FF1414;
+            border-bottom:4px solid #803380;
             width:100%;
             padding:0px;
             margin:0px;
