@@ -1,9 +1,9 @@
 import React from 'react';
 import Projectsbox from './Projectsbox';
-import fimage1 from '../img/1.svg';
-import fimage2 from '../img/2.svg';
-import fimage3 from '../img/3.svg';
-import fimage4 from '../img/4.svg';
+import fimage1 from '../img/characters.png';
+import fimage2 from '../img/environments.png';
+import fimage3 from '../img/visualEffects.png';
+import fimage4 from '../img/models.png';
 
 function Projects() {
   return (

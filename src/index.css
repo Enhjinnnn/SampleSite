@@ -198,14 +198,12 @@ nav .menu-btn,
 .a-b-img{
     width: 100%;
     height: 60%;
-
 }
 .a-b-img img{
-    padding: 15px;
     margin-top: 40px;
-    width:100%;
+    width: 50%;
     height: 50%;
-
+    margin-left: 65px;
 }
 .a-box:hover{
     border: 1px solid #99003d;
