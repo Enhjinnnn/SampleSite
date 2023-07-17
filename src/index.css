@@ -32,10 +32,10 @@ input{
 }
 #main{
     width:100%;
-    height:100%;
+    height:1080px;
     position: relative;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-image: url('./img/BackgroundGif.gif');
     position: relative;
     z-index: 0;
@@ -434,15 +434,15 @@ nav .menu-btn,
         width:90%;
     }
 }
-@media(max-width:2560px){
+@media(max-width:1600px){
     #main{
         height: 956px;
     }
 }
 @media(max-width:1190px){
-	/* #main{
+	#main{
 		background-size: 1150px !important;
-	} */
+	}
 	.name{
 		left: 50%;
 		top: 50%;
