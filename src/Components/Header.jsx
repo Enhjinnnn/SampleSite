@@ -3,7 +3,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <div id='main'>
+    <div id='main' >
        <div className='name'>
           <h2> CREATE QUALITY AND REPUTATION </h2>
           <h1>
