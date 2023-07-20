@@ -15,7 +15,7 @@ function AboutUs() {
         <div className='about-text'>
             <h1>LEARN MORE ABOUT US</h1>
             <p> LEARN MORE ABOUT US</p>
-            <button>READ MORE</button>
+            <button >READ MORE</button>
         </div>
     </div>
   )

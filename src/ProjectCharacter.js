@@ -1,9 +1,11 @@
-import React from 'react'
-import Projects from './Components/Projects'
+import React from 'react';
+
 
 function ProjectCharacter() {
   return (
-    <div><Projects/></div>
+  <div className='name'>
+    <h1>This is ProjectCharacter page</h1>
+  </div>
   )
 }
 
