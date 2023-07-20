@@ -245,20 +245,34 @@ nav .menu-btn,
     margin-top:15px ;
 }
 #portfolio{
-    width:100%;
-    height:120vh;
     box-sizing: border-box;
     font-family:'Lato';
-    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding-top: 40px ;
     background-color: #000000;
 }
 #portfolio h1{
     color: #fff;
     font-size: 3rem;
+    justify-content: center;
+    display: flex;
+}
+.wrapper{
+    height: auto;
+    padding-left: 100px;;
+    display: flex;
+    overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.wrapper .item{
+    min-width: 200px;
+    height: 110px;
+    line-height: 110px;
+    color: white;
+    text-align: center;
 }
 #presentaion{
     padding-top: 30px;
