@@ -347,6 +347,20 @@ nav .menu-btn,
 .wrapper-b-text a{
     margin-top:15px ;
 }
+.horizontal-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    overflow: hidden;
+    /* Add any other styling you need for the horizontal scroll container */
+  }
+  .horizontal-scroll-wrap {
+    display: flex;
+    align-items: center;
+  }
+  .leftRight-button{
+    background-color: #000000;
+    color: #add6e0;
+  }
 #presentaion{
     padding-top: 30px;
     width:100%;
