@@ -28,7 +28,7 @@ export function Model(props) {
 
 
 function ProjectCharacter() {
-  // const ref=useRef()
+  const ref=useRef()
   return (
     <div className='Environment'>
      <Canvas>
