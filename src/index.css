@@ -529,7 +529,11 @@ nav .menu-btn,
     padding-left: 10px;
     color: #fff;
 }
-
+.Environment{
+    background-color: #fff;
+    height: 1080px;
+    width: auto;
+}
 @media(max-width:620px){
     #contact form{
         width:90%;
@@ -750,3 +754,4 @@ nav .menu-btn,
                 height:400px;
             }
         }
+        

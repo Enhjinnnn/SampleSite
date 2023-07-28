@@ -13,7 +13,7 @@ function Footer() {
         <a href='https://www.facebook.com/tetrafxstudio' target="_blank" rel='noreferrer' className='footer-button'><AiFillFacebook size={30}/></a>
         <a href='https://www.facebook.com/tetrafxstudio' target="_blank" rel='noreferrer' className='footer-button'><AiFillInstagram size={30}/></a>
         <a href='https://www.facebook.com/tetrafxstudio' target="_blank" rel='noreferrer' className='footer-button'><AiFillYoutube size={30}/></a>
-        {/* <a href='https://www.facebook.com/tetrafxstudio' target="_blank" rel='noreferrer' className='footer-button'><FaDiscord size={30}/></a> */}
+        <a href='https://www.facebook.com/tetrafxstudio' target="_blank" rel='noreferrer' className='footer-button'><FaDiscord size={30}/></a>
     </div>
     </div>
   )
