@@ -537,10 +537,7 @@ nav .menu-btn,
     background-size: cover;
     position: relative;
 }
-/* .character{
-    justify-content: center;
-    margin-top: 100px;
-} */
+
 @media(max-width:620px){
     #contact form{
         width:90%;
@@ -548,6 +545,9 @@ nav .menu-btn,
 }
 @media(max-width:1600px){
     #main{
+        height: 956px;
+    }
+    .Environment{
         height: 956px;
     }
 }

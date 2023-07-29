@@ -4,6 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF, useAnimations } from '@react-three/drei';
 
 
+
 export function Model(props) {
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('/Girl.gltf')
@@ -29,6 +30,10 @@ export function Model(props) {
 
 function ProjectCharacter() {
   const ref=useRef()
+  useEffect(() => {
+    // Scroll to the top of the page when the component is mounted
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='Environment'>
      <Canvas>
