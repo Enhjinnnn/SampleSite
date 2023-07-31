@@ -1,9 +1,10 @@
 import React from 'react'
+import XrCubeContainer from './Components/XrCubeContainer'
 
 function ProjectVisualEffects() {
   return (
     <div className='name'>
-    <h1>This is ProjectCharacter page</h1>
+    <XrCubeContainer/>
     </div>
   )
 }
