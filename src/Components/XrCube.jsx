@@ -14,7 +14,7 @@ const XrCube = () => {
          <OrbitControls/>
          <ambientLight/>
          <mesh ref={cubeRef}>
-          <boxGeometry args={[2, 2, 2]} position-z={-5} />
+          <boxGeometry args={[2, 2, 2]} />
           <meshStandardMaterial color={"mediumpurple"}/>
          </mesh>
         </>
