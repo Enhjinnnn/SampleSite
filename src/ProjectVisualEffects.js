@@ -1,10 +1,10 @@
-import React from 'react'
-import XrCubeContainer from './Components/XrCubeContainer'
+import React from 'react';
+import XrHitCubeContainer from './Components/XrHitCubeContainer';
 
 function ProjectVisualEffects() {
   return (
     <div className='name'>
-    <XrCubeContainer/>
+    <XrHitCubeContainer/>
     </div>
   )
 }
