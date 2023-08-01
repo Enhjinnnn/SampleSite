@@ -51,7 +51,7 @@ const XrHitCube = () => {
          </Interactive>
         )}
 
-        {!isPresenting && <Cube/>}
+        {!isPresenting && < Cube/>}
     </>
   );
 };
