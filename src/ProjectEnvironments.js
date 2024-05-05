@@ -2,6 +2,7 @@ import React, { Suspense, useEffect } from 'react';
 import { useRef, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
+import { Button } from 'bootstrap';
 
 
 export function Model(props) {
@@ -124,6 +125,7 @@ function ProjectEnvironments() {
   }, []);
   return (
     <div className='Environment'>
+       <a href='https://s3.ap-northeast-1.amazonaws.com/event.metaland.mn/MeetingVR001.html' target="_blank" rel='noreferrer' className='footer-button'>Link</a>
      <Canvas>
       <Suspense fallback={null}>
        <ambientLight/>

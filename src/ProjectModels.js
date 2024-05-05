@@ -1,9 +1,12 @@
 import React, { useRef, useEffect, useState } from 'react';
+import { useGLTF, useAnimations } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+import { Model } from './Model';
 
 function ProjectModels() {
   const videoRef = useRef(null);
   const photoRef = useRef(null);
-
   const [hasPhoto, setHasPhoto] = useState(false);
 
   const getVideo = () => {
@@ -60,15 +63,30 @@ function ProjectModels() {
 
   useEffect(() => {
     getVideo();
-  }, [videoRef]);
+  }, []);
 
   return (
     <div className='name'>
-      <div className='camera'>
-        <video ref={videoRef}></video>
-        <button onClick={takePhoto}>SNAP</button>
+      <div className='canvas-container'>
+        <Canvas>
+          <ambientLight />
+          <spotLight
+            intensity={0.9}
+            angle={0.1}
+            penumbra={1}
+            position={[10, 15, 10]}
+            castShadow
+          />
+          <Model />
+          <OrbitControls enablePan={true} enableZoom={true} enableRotate={true} />
+        </Canvas>
+
+        <div className='video-overlay'>
+          <video ref={videoRef} autoPlay muted playsInline className='video-feed'></video>
+        </div>
       </div>
-      <div className={'result' + (hasPhoto ? 'hasPhoto' : '')}>
+
+      <div className='result' style={{ display: hasPhoto ? 'block' : 'none' }}>
         <canvas ref={photoRef}></canvas>
         {hasPhoto && <button onClick={downloadPhoto}>Download</button>}
         <button onClick={closePhoto}>Close</button>
