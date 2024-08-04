@@ -25,8 +25,8 @@ input{
     border: none;
 }
 .logo img{
-    width: 80px;
-    height: 80px;
+    width: 256px;
+    height: 128px;
 }
 .logoImg{
     margin-left: -100px;
@@ -37,7 +37,8 @@ input{
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./img/BackgroundGif.gif');
+    background-image: url('./img/gift-box-dribbble.gif');
+    background-color: #000000;
     position: relative;
     z-index: 0;
 }
@@ -152,7 +153,7 @@ nav .menu-btn,
 	justify-content: center;
     align-items: center;
     font-size: 1.4rem;
-    background-color: #add6e0;
+    background-color: #46c800;
     box-shadow: 5px 10px 30px rgba(210, 110, 195, 0.336);
     border-radius: 5px;
 	color:#ffffff;

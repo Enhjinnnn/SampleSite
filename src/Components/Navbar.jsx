@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from '../img/timetable.png';
+import logo from '../img/RGB_Logo_r.png';
 import {Link} from 'react-scroll';
 
 

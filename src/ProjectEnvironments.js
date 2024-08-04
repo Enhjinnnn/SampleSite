@@ -125,7 +125,7 @@ function ProjectEnvironments() {
   }, []);
   return (
     <div className='Environment'>
-       <a href='https://s3.ap-northeast-1.amazonaws.com/event.metaland.mn/MeetingVR001.html' target="_blank" rel='noreferrer' className='footer-button'>Link</a>
+       {/* <a href='https://s3.ap-northeast-1.amazonaws.com/event.metaland.mn/MeetingVR001.html' target="_blank" rel='noreferrer' className='footer-button'>Link</a> */}
      <Canvas>
       <Suspense fallback={null}>
        <ambientLight/>

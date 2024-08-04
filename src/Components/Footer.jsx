@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div id='footer'>
     <div className='footer-text'>
-       &copy; TetraFX 2023.&nbsp; All rights reserved.
+       &copy; Unitel 2024.&nbsp; All rights reserved.
     </div>
     <div>
         <a href='https://www.facebook.com/tetrafxstudio' target="_blank" rel='noreferrer' className='footer-button'><AiFillFacebook size={30}/></a>
